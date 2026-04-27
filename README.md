@@ -1,16 +1,46 @@
-## Hi there 👋
+# 🐯 TigerGrief
 
-<!--
-**TigerGrief/TigerGrief** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔥 TigerGrief — это гриф-сервер Minecraft с PvP, рейдами, экономикой и донатами.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌐 Сервер
+IP: *TigerGrief.aternos.me*
+
+---
+
+## 💎 Что есть на сервере
+- ⚔️ PvP и рейды
+- 💰 Экономика и деньги
+- 🎁 Кейсы с наградами
+- 🏆 Донат-привилегии
+- 🏰 Выживание и развитие
+
+---
+
+## 👑 Донаты
+От *Wolf ($1.50)* до *Immortal ($26)*  
+Каждый донат даёт бонусы и преимущества!
+
+---
+
+## 🎁 Кейсы и услуги
+- Кейс с деньгами 💰
+- Кейс с китами 📦
+- Кейс с тигриксами 🐯  
+- Размут 🔇
+- Разбан 🚫
+
+---
+
+## 🚀 Цель сервера
+Стань сильнейшим игроком, прокачайся и захвати топ!
+
+---
+
+## 💻 Сайт
+Создан для проекта TigerGrief
+
+---
+
+💥 Присоединяйся и начни игру уже сейчас!
