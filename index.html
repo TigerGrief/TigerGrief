@@ -7,108 +7,129 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial;
-    background: #0f0f0f;
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
     color: white;
+}
+
+/* Шапка */
+header {
+    background: linear-gradient(90deg, #ff7b00, #ff0000);
+    padding: 60px 20px;
     text-align: center;
 }
 
-header {
-    background: linear-gradient(90deg, orange, red);
-    padding: 40px;
-}
-
-h1 {
+header h1 {
+    font-size: 55px;
     margin: 0;
-    font-size: 50px;
 }
 
-.button {
-    background: orange;
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+button {
+    margin-top: 15px;
     padding: 12px 25px;
+    border: none;
     border-radius: 10px;
+    background: white;
     color: black;
-    text-decoration: none;
     font-weight: bold;
     cursor: pointer;
 }
 
+/* Блоки */
 .section {
-    padding: 40px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+
+/* Карточки */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
 
 .card {
-    background: #1c1c1c;
-    margin: 10px;
-    padding: 20px;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
     border-radius: 12px;
-    display: inline-block;
-    width: 250px;
+    padding: 15px;
+    width: 220px;
     transition: 0.3s;
 }
 
 .card:hover {
     transform: scale(1.05);
+    border-color: #ff9900;
 }
 
 .price {
-    color: orange;
-    font-size: 20px;
-    margin-top: 10px;
+    color: #ff9900;
+    margin-top: 8px;
+    font-weight: bold;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
     <h1>🐯 TigerGrief</h1>
-    <p>Лучший гриф сервер</p>
+    <p>Гриф-сервер Minecraft • PvP • Донаты • Кейсы</p>
     <p><b>IP: TigerGrief.aternos.me</b></p>
-    <br>
-    <button onclick="copyIP()" class="button">Скопировать IP</button>
+    <button onclick="copyIP()">📋 Скопировать IP</button>
 </header>
 
 <!-- ДОНАТЫ -->
 <div class="section">
-    <h2>🔥 Донаты</h2>
+    <h2>💎 Донаты</h2>
+    <div class="grid">
 
-    <div class="card">🐺 Wolf<br><small>Стартовый донат</small><div class="price">$1.50</div></div>
-    <div class="card">🔥 Blaze<br><small>Улучшенные киты</small><div class="price">$3</div></div>
-    <div class="card">🐯 Tiger+<br><small>Средний донат</small><div class="price">$5</div></div>
-    <div class="card">👻 Phantom<br><small>Особые команды</small><div class="price">$7</div></div>
-    <div class="card">🌑 Shadow<br><small>PvP бонусы</small><div class="price">$9</div></div>
-    <div class="card">🕳 Void<br><small>Сильные киты</small><div class="price">$11</div></div>
-    <div class="card">🌙 Nightmare<br><small>PvP преимущество</small><div class="price">$13</div></div>
-    <div class="card">👑 GriefKing<br><small>Почти админ</small><div class="price">$15</div></div>
-    <div class="card">🏆 Overlord<br><small>Высокий статус</small><div class="price">$17</div></div>
-    <div class="card">✨ Mythic<br><small>Элитные возможности</small><div class="price">$19</div></div>
-    <div class="card">🌌 Celestial<br><small>Почти максимум</small><div class="price">$22</div></div>
-    <div class="card">💀 Immortal 👑<br><small>ТОП донат</small><div class="price">$26</div></div>
+        <div class="card">🐺 Wolf<div class="price">$1.50</div></div>
+        <div class="card">🔥 Blaze<div class="price">$3</div></div>
+        <div class="card">🐯 Tiger+<div class="price">$5</div></div>
+        <div class="card">👻 Phantom<div class="price">$7</div></div>
+        <div class="card">🌑 Shadow<div class="price">$9</div></div>
+        <div class="card">🕳 Void<div class="price">$11</div></div>
+        <div class="card">🌙 Nightmare<div class="price">$13</div></div>
+        <div class="card">👑 GriefKing<div class="price">$15</div></div>
+        <div class="card">🏆 Overlord<div class="price">$17</div></div>
+        <div class="card">✨ Mythic<div class="price">$19</div></div>
+        <div class="card">🌌 Celestial<div class="price">$22</div></div>
+        <div class="card">💀 Immortal<div class="price">$26</div></div>
+
+    </div>
 </div>
 
 <!-- КЕЙСЫ -->
 <div class="section">
     <h2>🎁 Кейсы</h2>
-
-    <div class="card">💰 Кейс с деньгами<div class="price">$1</div></div>
-    <div class="card">🐯 Кейс с тигриксами<div class="price">$6</div></div>
-    <div class="card">📦 Кейс с китами<div class="price">$2</div></div>
+    <div class="grid">
+        <div class="card">💰 Деньги<div class="price">$1</div></div>
+        <div class="card">🐯 Тигриксы<div class="price">$6</div></div>
+        <div class="card">📦 Киты<div class="price">$2</div></div>
+    </div>
 </div>
 
 <!-- УСЛУГИ -->
 <div class="section">
     <h2>🛠 Услуги</h2>
-
-    <div class="card">🔇 Размут<div class="price">$2</div></div>
-    <div class="card">🚫 Разбан<div class="price">$5</div></div>
-</div>
-
-<!-- ПРИВИЛЕГИЯ -->
-<div class="section">
-    <h2>⭐ Особая привилегия</h2>
-
-    <div class="card">💎 Привилегия<div class="price">$10</div></div>
+    <div class="grid">
+        <div class="card">🔇 Размут<div class="price">$2</div></div>
+        <div class="card">🚫 Разбан<div class="price">$5</div></div>
+        <div class="card">⭐ Привилегия<div class="price">$10</div></div>
+    </div>
 </div>
 
 <script>
